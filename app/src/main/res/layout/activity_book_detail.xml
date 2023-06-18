@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/bookImageDetail"
+        android:layout_width="160dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fiksi1" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookImageDetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/judul_detail"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bookTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/judul"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/judul"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="Book Title" />
+
+    <TextView
+        android:id="@+id/penulis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul"
+        android:layout_alignStart="@id/judul"
+        android:layout_marginTop="5dp"
+        android:text="@string/penulis_detail"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bookAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/penulis"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/penulis"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="Penulis" />
+
+    <TextView
+        android:id="@+id/bookDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/penulis"
+        android:layout_alignStart="@+id/penulis"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"
+        tools:text="Deskripsi" />
+
+    <Button
+        android:id="@+id/buttonLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookDesc"
+        android:layout_marginTop="11dp"
+        android:background="?attr/colorPrimary"
+        android:text="@string/buka_di_browser"
+        android:textColor="?attr/colorOnPrimary" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyBook</string>
+    <string name="ganti_tema">Ganti Tema</string>
+    <string name="judul_detail">Judul:</string>
+    <string name="penulis_detail">Penulis:</string>
+    <string name="buka_di_browser">Buka di browser</string>
+    <string name="fiksi_nav">Fiksi</string>
+    <string name="non_fiksi_nav">Non-Fiksi</string>
+</resources>

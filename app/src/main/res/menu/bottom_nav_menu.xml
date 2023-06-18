@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_fiction"
+        android:icon="@drawable/fiksi"
+        android:title="@string/fiksi_nav"
+        android:iconTint="@color/bottom_nav_item_selector" />
+
+    <item
+        android:id="@+id/menu_nonfiction"
+        android:icon="@drawable/nonfiksi"
+        android:title="@string/non_fiksi_nav"
+        android:iconTint="@color/bottom_nav_item_selector" />
+</menu>
